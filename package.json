@@ -1,0 +1,19 @@
+{
+  "name": "nhentai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cli-progress": "^3.9.1",
+    "image-downloader": "^4.0.3",
+    "nhentai": "^3.0.0"
+  }
+}
