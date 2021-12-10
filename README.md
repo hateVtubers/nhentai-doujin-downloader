@@ -1,7 +1,7 @@
 # nhentai-doujin-downloader
 
---npm install
+npm install
 
----node main.js 177013
+node main.js 177013
 
 nyaa
