@@ -14,7 +14,7 @@ const downloadDoujin = async (dirName, name, url) => {
   fs.mkdirSync(path.join(config.__dirname, `${config.path}/${dirName}`), {
     recursive: true,
   });
-  const pathDir = path.resolve(config.__dirname, `build/${dirName}`, name);
+  const pathDir = path.resolve(config.__dirname, `${config.path}/${dirName}`, name);
   const writer = fs.createWriteStream(pathDir);
   const response = await axios({
     url,
