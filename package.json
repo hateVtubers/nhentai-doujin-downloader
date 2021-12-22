@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "npx nodemon index.js",
+    "start": "npx nodemon src/main.js #376836",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
