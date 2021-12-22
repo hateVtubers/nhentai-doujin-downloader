@@ -1,6 +1,7 @@
+// the folder name is doujin code
 const config = {
-  __dirname: "./", // for default path is the root directory
-  path: "build", // here save the downloaded doujin
+  __dirname: "./", // by default is the root
+  path: "build", // here will save the downloaded doujin
 };
 
 export default config;
