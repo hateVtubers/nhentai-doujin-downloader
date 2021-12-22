@@ -8,7 +8,7 @@ npm install
 
 
 ### Usage
-```js
+```
 
 node src/main.js #177013
 
