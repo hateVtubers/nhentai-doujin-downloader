@@ -12,7 +12,6 @@ npm install
 
 // the two ways is valid
 node src/main.js #177013
-
 node src/main.js 177013
 
 ```
