@@ -12,8 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^0.24.0",
     "cli-progress": "^3.9.1",
-    "image-downloader": "^4.0.3",
     "nhentai": "^3.0.0"
   }
 }
