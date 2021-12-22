@@ -2,6 +2,11 @@
 
 npm install
 
-node main.js 177013
+### Usage
+```js
 
-nyaa
+node src/main.js #177013
+
+node src/main.js 177013
+
+```
