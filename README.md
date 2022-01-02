@@ -15,9 +15,7 @@ node main.js 177013
 ```
 
 ### Customization
-```js
-
+```bash
 // here you can change the folder where is download by default
-/src/config.js
-
+/config.js
 ```
