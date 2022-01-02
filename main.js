@@ -9,7 +9,7 @@ const Api = new API();
 const bar = new SingleBar({}, Presets.shades_classic);
 const arg = process.argv[2].replace("#", "");
 const { pages } = await Api.fetchDoujin(arg);
-
+// 382920
 const downloadDoujin = async (dirName, name, url) => {
   fs.mkdirSync(path.join(config.__dirname, `${config.path}/${dirName}`), {
     recursive: true,
@@ -30,9 +30,11 @@ const downloadDoujin = async (dirName, name, url) => {
   });
 };
 
+console.log("Downloading doujin...");
 bar.start(pages.length, 0);
 pages.forEach(({ url, extension }, i) => {
   downloadDoujin(arg, `${i}.${extension}`, url);
   bar.update(i + 1);
 });
+
 bar.stop();
